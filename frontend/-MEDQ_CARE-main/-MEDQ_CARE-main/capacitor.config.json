@@ -1,0 +1,32 @@
+{
+  "appId": "com.medqcare.app",
+  "appName": "MedQ Care",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#0f172a",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0f172a"
+    }
+  },
+  "android": {
+    "minSdkVersion": 24,
+    "compileSdkVersion": 34,
+    "targetSdkVersion": 34,
+    "buildOptions": {
+      "keystorePath": "release-key.jks",
+      "releaseType": "AAB"
+    }
+  }
+}
